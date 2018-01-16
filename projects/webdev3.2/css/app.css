@@ -1,0 +1,362 @@
+body {
+    font-family: 'Acme', sans-serif;
+}
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+    color: blue;
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    color: blue;
+}
+p {
+    letter-spacing: 1px;
+}
+.projects img,
+.testimonials img {
+    display: block;
+    margin: 0 auto;
+}
+.content {
+    max-width: 1280px;
+    width: 100%;    
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #202fa0;
+}
+.logo {
+    width: 180px;
+    height: 180px;    
+    display: block;
+    margin-top: 10px;
+}
+div.nav {
+    margin-top: 50px;
+}
+label.button {
+    display: none;
+}
+nav {
+    float: left;
+}
+a {
+    color: #FFE000;
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 10px 10px 10px 10px;
+}
+li {
+    display: inline-block;
+    float: left;
+    padding: 10px
+}
+.active {
+    font-weight: bold;
+    color: #ADADAD;
+}
+.navi input {
+    display: none;
+}
+.main-content {
+    max-width: 920px;
+    width: 100%;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    margin-top: 18px;
+    text-align: center;
+}
+.main-content ul li {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    width: 200px;
+    text-transform: uppercase;
+}
+.main-content li a {
+    display: inline;
+    color: #f2edf0;
+    text-decoration: none;
+}
+.main-content ul li ul {
+    padding: 0;
+    position: absolute;    
+    top: 48px;
+    left: 0;
+    width: 300px;
+    display: none;
+}
+.main-content ul li:hover {
+    background-color: rgba(0, 100, 255, 0.3);
+}
+.main-content ul li ul li {
+    display: block;
+    background: #68455c;
+}
+.main-content ul li ul li:hover;
+{
+    background-color: #c1539b;
+}
+.main-content ul li:hover ul {
+    display: block;
+}
+.welcome {
+    width: 100%;
+    position: relative;
+}
+.intro {
+    position: absolute;
+    background-color: yellow;
+    border-radius: 50px 10px 50px 10px;
+    width: 19em;
+    padding: 10px;
+    margin-top: 300px;
+}
+.intro p {
+    font-size: 26px;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-left: 10px;
+    margin-bottom: -1px;
+}
+#introA {} #introB {
+    margin-left: 60px;
+}
+.intro2 {
+    position: absolute;
+    right: -1000px;
+    top: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 580px;
+    border-radius: 25px 0px 0px 25px;
+    padding: 5px 5px 1px 0px;
+}
+.intro2 h1 {
+    text-align: center;
+    font-size: 25px;
+}
+.intro2 p {
+    margin-left: 20px;
+    color: black;
+}
+#intro2B {
+    display: none;
+    position: initial;
+    border-radius: 0px 0px 0px 0px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.schedule,
+.blog,
+.tour,
+.social,
+.about,
+.donate,
+.projects,
+.testimonials,
+.testInfo,
+.testIMG,
+.projectsInfo,
+.projectsIMG {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.timeText p {
+    margin-bottom: 30px;
+}
+.timeNum p {
+    margin-bottom: 30px;
+}
+.video {
+    text-align: center;
+    position: relative;
+    padding-bottom: 56.25%;    
+    padding-top: 25px;
+    height: 0;
+    width: 100%;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.footer {
+    background-color: #202fa0;
+    color: white;
+}
+.footer a {
+    color: white;
+}
+.footer li {
+    width: 100%;
+    margin-left: -37px;
+}
+.footer p {
+    text-align: center;
+}
+.links {
+    text-align: center;
+}
+.social .row {
+    text-align: center;
+}
+.about img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.title {
+    width: 100%;
+}
+.projectsText {
+    width: 90%;
+}
+.projects h2,
+.testimonials h2 {
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    font-family: 'Acme', sans-serif;
+}
+.amount1 p {
+    margin-left: 15px;
+}
+.form_description p {
+    text-align: center;
+}
+.element {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.description {
+    text-align: center;
+}
+.subButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Acme', sans-serif;
+    border-radius: 5px;
+}
+.subButton:hover {
+    background-color: #99ff66;
+    color: black;
+}
+@media only screen and (max-width: 1246px) {
+    .main-content ul {
+        width: 400px;
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 928px) {
+    .main-content ul {
+        margin-left: 0px;
+    }
+    .main-content ul li {} .intro {
+        width: 16em;
+    }
+    .intro p {
+        font-size: 20px;
+    }
+    .intro2 {
+        display: none;
+    }
+    #intro2B {
+        display: block;
+    }
+}
+@media only screen and (max-width: 646px) {
+    header {
+        position: absolute;
+        box-shadow: 0 0 5px #000;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 5px 0;
+        margin: 0;
+        float: none;
+    }
+    .navi {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .navi .main-content {
+        padding: 0px;
+        right: 0px;
+        height: auto;
+        transition: top 0.5s ease-in-out;
+    }
+    .main-content {
+        position: relative;
+        margin: 30px 255px 0px -160px;
+    }
+    .navi input#toggle {
+        display: none;
+    }
+    .navi input#toggle + label {
+        display: block;
+        width: 50px;
+        height: 50px;        
+        color: #fff;
+        position: absolute;
+        right: 0;
+        top: auto;
+        cursor: pointer;
+        z-index: 10;
+        margin-top: -35px;
+        font-size: 32px;
+    }
+    .button {
+        background: none;
+        padding: 10px;
+        border: none;
+        margin-top: 20px;
+    }
+    .button:hover {
+        background: none;
+        padding: 10px;
+        border: none;
+    }
+    input#toggle:checked ~ label {
+    }
+    input#toggle:checked ~ .main-content {
+        display: none;
+    }
+    .logo {
+        width: 72px;
+        height: 72px;
+    }
+    .intro {
+        display: none;
+    }
+    .intro2 {
+        width: 98%;
+    }
+    .intro2 h1 {
+        font-size: 21px;
+    }
+    .blank {
+        display: none;
+    }
+}
