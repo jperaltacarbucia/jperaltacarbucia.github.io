@@ -1,0 +1,371 @@
+/*
+Project Name: Project #
+Description: This project is to create ?
+Author: your name
+Version: 1.0
+License: 
+
+Tags: (optional)
+
+General comments (optional)
+
+Table of Contents in CSS
+1. Global
+2. Links
+3. Headings
+4. Header
+5. Navigation
+6. Middle
+7. Forms
+8. Extras
+9. Footer
+*/
+
+/* 1. Global */
+html,body  { 
+  margin: 0;
+  padding: 0;
+  background-color: #2a5982;
+}
+
+h1,h2,p {
+	letter-spacing: 1px;
+}
+
+h1 {
+  	text-align: center;
+  	color: #ffffff;
+  	font-family: 'VT323', monospace;
+  	font-size: 80px;
+  	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	margin: 10px;
+	color: white;
+
+}
+
+p {
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	color: #242F37;
+}
+
+a {
+	text-decoration: none;
+}
+
+a img:hover {
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/* 2. Links */
+
+/* 3. Headings */
+
+/* 4. Header */
+
+/* 5. Navigation */
+
+/* 6. Middle */
+
+.part2 {
+	margin-top: 100px;
+}
+
+.info {
+	border:5px solid #354451;
+	border-style: outset;
+	border-radius: 5px;
+	margin: 20px;
+	margin-top: 100px;
+	padding: 10px;
+}
+
+/* 7. Forms */
+
+#jForm {
+	margin-top: 20px;
+	margin-left: 2%;
+}
+
+#jForm label.error {
+	font-size: 0.8em;
+	color: #354451;
+	font-weight: bold;
+	display: block;
+	margin-left: 15px;
+	margin-top: 5px;
+} 
+#jForm input.error, #jForm select.error {
+	background: #FFA9B8;
+	border: 1px solid red;
+}
+
+input #element_2 {
+	height: 200px;
+}
+
+label {
+	color: #354451;
+}
+
+
+form {
+	width: 640px;
+	margin: 0 auto;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+  	min-width: 100%;
+  	padding: 0;
+  	width: 100%;
+}
+
+#request input[type="text"], #request input[type="tel"], #request textarea {
+	width: 50%;
+  	border: 1px solid #ccc;
+  	background: #FFF;
+ 	margin: 0 0 5px;
+ 	padding: 10px;
+}
+
+#request input[type="text"]:hover, #request input[type="tel"]:hover, #request textarea:hover {
+	-webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#request textarea {
+	height: 100px;
+  	max-width: 100%;
+  	resize: none;
+}
+
+.part2 {
+	margin-top: 50px;
+}
+
+.pokemon {
+	margin-right: 100px;
+	margin-top: 20px;
+	}
+
+#form_container {
+	margin:0 auto;
+	text-align:left;
+	width:640px;
+	border:5px solid #354451;
+	border-style: outset;
+	border-radius: 5px;
+	margin-top: 100px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+
+
+.form {
+	font-family: 'Orbitron', sans-serif;
+	font-size:20px;
+}
+
+
+
+.form_description {
+	clear:both;
+	display:inline-block;
+	margin:0 0 1em;
+	text-align: center;
+}
+
+.form_description[class] {
+	display:block;
+}
+
+.form_description h2 {
+	clear:left;
+	font-size:160%;
+	font-weight:400;
+	margin:0 0 3px;
+}
+
+.form_description p {
+	font-size:95%;
+	line-height:130%;
+	margin:0 0 12px;
+}
+
+
+
+form .section_break h3 {
+	font-size:110%;
+	font-weight:400;
+	line-height:130%;
+	margin:0 0 2px;
+}
+
+form .section_break p {
+	font-size:85%;
+
+	margin:0 0 10px;
+}
+
+#element_12 {
+	height: 100px;
+	width: 500px;
+}
+
+#guide_12 {
+	margin-top: 100px;
+}
+
+
+
+
+
+/* 8. Extras */
+
+	/*p {
+		position: absolute;
+		top: 80%;
+		left: 80%;
+	}*/
+
+	.main {
+		width: 1100px;
+		margin: 0 auto;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		background-color: #5797CE;
+		border:50px solid #354451;
+		border-style: outset;
+		border-radius: 5px;
+	}
+
+	.button1 {
+		font-family: 'Orbitron', sans-serif;
+		background-color: #4CAF50;
+		border: none;
+    	color: white;
+    	padding: 15px 32px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 25px;
+    	margin: 0 auto;
+    	cursor: pointer;
+    	display: block;
+    	width: 300px;
+	}
+
+	.button1:hover {
+		background-color: white;
+		color: black;
+	}
+
+	button.caption {
+		font-family: 'Orbitron', sans-serif;
+		background-color: #4CAF50;
+		border: none;
+    	color: white;
+    	padding: 15px 32px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 25px;
+    	margin: 0 auto;
+    	cursor: pointer;
+    	display: block;
+	}
+
+	button.caption:hover {
+		background-color: white;
+		color: black;
+	}
+
+	#slider {
+		height: 480px;
+		width: 640px;
+		position: relative;
+		top: 60px;
+		margin: auto;
+		overflow: hidden;
+		background-color: #99f;
+		border:25px solid #354451;
+		border-style: outset;
+		border-radius: 5px;
+	}
+
+	.slide, .caption {
+		position: absolute;
+		left: 641px;
+		top: 0px;
+	}
+	.caption {
+		position: absolute;
+		left: 641px;
+		top: 50px;
+		/*background-color: #ff0;*/
+		padding: 10px;
+		white-space: nowrap;
+	}
+
+	#dotNav {
+		position: absolute;
+		list-style-type: none;
+		bottom: 5px;
+		left: 180px;
+		z-index: 100;
+	}
+	#dotNav li {
+		float: left;
+		height: 15px;
+		width: 15px;
+		margin-left: 20px;
+		border-radius: 50%;
+		background-image: url("images/pokeball2.png");
+		background-color: blue;
+		cursor: pointer;
+	}
+	#dotNav li:hover {
+		background-image: url("images/pokeball.png");
+	}
+
+	.arrows {
+		position: absolute;
+		width: 40px;
+		height: 100px;
+		opacity: 0.6;
+		top: 190px;
+		cursor: pointer;
+		z-index: 100;
+	}
+
+	.arrows:hover {
+		opacity: 1;
+	}
+
+	#leftArrow {
+		left: 10px;
+	}
+
+	#rightArrow {
+		right: 10px;
+	}
+
+/* 9. Footer */
+
+
+
+
+
+
