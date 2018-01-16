@@ -1,0 +1,419 @@
+/*
+Project Name: Project #
+Description: This project is to create ?
+Author: your name
+Version: 1.0
+License: 
+
+Tags: (optional)
+
+General comments (optional)
+
+Table of Contents in CSS
+1. Global
+2. Links
+3. Headings
+4. Header
+5. Navigation
+6. Middle
+7. Forms
+8. Extras
+9. Footer
+*/
+
+/* 1. Global */
+html,body  { 
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/bg.jpg');
+  }
+
+  h1, h2, p {
+  	text-align: center;
+  }
+
+ .content {
+ 	margin: 0 auto;
+ 	padding: 1px 20px 20px 20px;
+ 	width: 1500px;
+ 	/*background: white;*/
+ }
+/* 2. Links */
+
+/* 3. Headings */
+
+/* 4. Header */
+
+/* 5. Navigation */
+
+/* 6. Middle */
+
+.titleBox {
+	background-image: url('../images/bg2.jpg');
+	width: 1500px;
+}
+
+.title, .title2 {
+	background: green;
+	width: 1500px;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.title2 {
+	height: 200px;
+	background-image: url('../images/pregunta.png');
+}
+
+.errorBox {
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 5px;
+	width: 678px;
+	background-image: url('../images/bg2.jpg');
+}
+
+.error {
+	margin: 0 auto;
+	margin: 10px;
+	margin-left: 20px;
+	width: 135px;
+	height: 135px;
+	background: green;
+	display: inline-block;
+	background-image: url('../images/black2.png');
+}
+
+.answerBox {
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 5px;
+	width: 1050px;
+	background-image: url('../images/bg2.jpg');
+}
+
+.answer {
+	margin: 0 auto;
+	margin: 18px 31px 18px 31px;
+	width: 460px;
+	height: 181px;
+	background: green;
+	display: inline-block;
+	text-align: center;
+}
+
+.answer:hover, .error:hover, .title2:hover {
+	outline: 5px solid yellow;
+}
+
+.next, a {
+	margin: 0 auto;
+	display: block;
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    cursor: pointer;
+    width: 200px;
+    height: 110px;
+}
+
+.next:hover {
+	outline: 5px solid yellow;
+}
+
+/* Part 1 */
+
+#q1a1 {
+	background-image: url('../images/num1.png');
+}
+
+#q1a2 {
+	background-image: url('../images/num2.png');
+}
+
+#q1a3 {
+	background-image: url('../images/num3.png');
+}
+
+#q1a4 {
+	background-image: url('../images/num4.png');
+}
+
+#q1a5 {
+	background-image: url('../images/num5.png');
+}
+
+#q1a6 {
+	background-image: url('../images/num6.png');
+}
+
+/* Part 2 */
+
+#q2a1 {
+	background-image: url('../images/num1.png');
+}
+
+#q2a2 {
+	background-image: url('../images/num2.png');
+}
+
+#q2a3 {
+	background-image: url('../images/num3.png');
+}
+
+#q2a4 {
+	background-image: url('../images/num4.png');
+}
+
+#q2a5 {
+	background-image: url('../images/num5.png');
+}
+
+#q2a6 {
+	background-image: url('../images/num6.png');
+}
+
+#q2a7 {
+	background-image: url('../images/num7.png');
+}
+
+#q2a8 {
+	background-image: url('../images/num8.png');
+}
+
+/* Part 3 */
+
+#q3a1 {
+	background-image: url('../images/num1.png');
+}
+
+#q3a2 {
+	background-image: url('../images/num2.png');
+}
+
+#q3a3 {
+	background-image: url('../images/num3.png');
+}
+
+#q3a4 {
+	background-image: url('../images/num4.png');
+}
+
+#q3a5 {
+	background-image: url('../images/num5.png');
+}
+
+#q3a6 {
+	background-image: url('../images/num6.png');
+}
+
+/* Part 4 */
+
+#q4a1 {
+	background-image: url('../images/num1.png');
+}
+
+#q4a2 {
+	background-image: url('../images/num2.png');
+}
+
+#q4a3 {
+	background-image: url('../images/num3.png');
+}
+
+#q4a4 {
+	background-image: url('../images/num4.png');
+}
+
+#q4a5 {
+	background-image: url('../images/num5.png');
+}
+
+#q4a6 {
+	background-image: url('../images/num6.png');
+}
+
+/* Part 5 */
+
+#q5a1 {
+	background-image: url('../images/num1.png');
+}
+
+#q5a2 {
+	background-image: url('../images/num2.png');
+}
+
+#q5a3 {
+	background-image: url('../images/num3.png');
+}
+
+#q5a4 {
+	background-image: url('../images/num4.png');
+}
+
+#q5a5 {
+	background-image: url('../images/num5.png');
+}
+
+#q5a6 {
+	background-image: url('../images/num6.png');
+}
+
+/* Part 6 */
+
+#q6a1 {
+	background-image: url('../images/num1.png');
+}
+
+#q6a2 {
+	background-image: url('../images/num2.png');
+}
+
+#q6a3 {
+	background-image: url('../images/num3.png');
+}
+
+#q6a4 {
+	background-image: url('../images/num4.png');
+}
+
+#q6a5 {
+	background-image: url('../images/num5.png');
+}
+
+#q6a6 {
+	background-image: url('../images/num6.png');
+}
+
+/* Part 7 */
+
+#q7a1 {
+	background-image: url('../images/num1.png');
+}
+
+#q7a2 {
+	background-image: url('../images/num2.png');
+}
+
+#q7a3 {
+	background-image: url('../images/num3.png');
+}
+
+#q7a4 {
+	background-image: url('../images/num4.png');
+}
+
+#q7a5 {
+	background-image: url('../images/num5.png');
+}
+
+#q7a6 {
+	background-image: url('../images/num6.png');
+}
+
+#q7a7 {
+	background-image: url('../images/num7.png');
+}
+
+#q7a8 {
+	background-image: url('../images/num8.png');
+}
+
+/* Part 8 */
+
+#q8a1 {
+	background-image: url('../images/num1.png');
+}
+
+#q8a2 {
+	background-image: url('../images/num2.png');
+}
+
+#q8a3 {
+	background-image: url('../images/num3.png');
+}
+
+#q8a4 {
+	background-image: url('../images/num4.png');
+}
+
+#q8a5 {
+	background-image: url('../images/num5.png');
+}
+
+#q8a6 {
+	background-image: url('../images/num6.png');
+}
+
+#q8a7 {
+	background-image: url('../images/num7.png');
+}
+
+#q8a8 {
+	background-image: url('../images/num8.png');
+}
+
+/* Part 9 */
+
+#q9a1 {
+	background-image: url('../images/num1.png');
+}
+
+#q9a2 {
+	background-image: url('../images/num2.png');
+}
+
+#q9a3 {
+	background-image: url('../images/num3.png');
+}
+
+#q9a4 {
+	background-image: url('../images/num4.png');
+}
+
+#q9a5 {
+	background-image: url('../images/num5.png');
+}
+
+#q9a6 {
+	background-image: url('../images/num6.png');
+}
+
+#q9a7 {
+	background-image: url('../images/num7.png');
+}
+
+/* Part 10 */
+
+#q10a1 {
+	background-image: url('../images/num1.png');
+}
+
+#q10a2 {
+	background-image: url('../images/num2.png');
+}
+
+#q10a3 {
+	background-image: url('../images/num3.png');
+}
+
+#q10a4 {
+	background-image: url('../images/num4.png');
+}
+
+#q10a5 {
+	background-image: url('../images/num5.png');
+}
+
+#q10a6 {
+	background-image: url('../images/num6.png');
+}
+
+/* 7. Forms */
+
+/* 8. Extras */
+
+/* 9. Footer */

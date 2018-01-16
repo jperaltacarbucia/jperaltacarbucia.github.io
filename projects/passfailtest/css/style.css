@@ -1,0 +1,128 @@
+@import url("reset.css");
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333;
+    background: #FFD966;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #403619;
+    padding-top: 15px;
+    padding: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #403619;
+  padding-top: 15px;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #403619;
+  padding-top: 15px;
+  padding: 10px;
+}
+
+p {
+    padding: 10px;
+    color: #7F6C33;
+    width: 800px;
+    margin-left: 90px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    border: 5px solid #E5C35C;
+}
+
+#header {
+    float: left;
+    height: 157px;
+    width: 1000px;
+    background: #E5C35C;
+}
+
+#navigation {
+    float: left;
+    width: 1000px;
+    height: 75px;
+    background: #FFCC33;
+}
+
+#nav-buttons {
+  margin-top: 15px;
+}
+
+#button {
+  padding: 10px 10px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #7F6C33;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+#button:hover {background-color: #403619}
+
+#button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+#content {
+    padding-top: 5px;
+    float: left;
+    background: #FFFFFF;
+    width: 1000px;
+    border: 2px solid black;
+}
+
+/* About */
+
+#text1 {
+    font-style: italic;
+}
+
+#img1 {
+    width: 304px;
+    height: 228px;
+    border: 2px solid black;
+}
+
+ul {
+  padding-left: 450px;
+}
+
+li {
+  padding: 5px;
+}
+
+#footer {
+    height: 40px;
+    width: 1000px;
+    background: #E5C35C;
+    clear: both;
+    text-align: center;
+}

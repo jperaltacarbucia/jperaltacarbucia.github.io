@@ -1,0 +1,242 @@
+/*
+Project Name: Project #
+Description: This project is to create ?
+Author: your name
+Version: 1.0
+License: 
+
+Tags: (optional)
+
+General comments (optional)
+
+Table of Contents in CSS
+1. Global
+2. Links
+3. Headings
+4. Header
+5. Navigation
+6. Middle
+7. Forms
+8. Extras
+9. Footer
+*/
+
+/* 1. Global */
+html,body  { 
+  margin: 0;
+  padding: 0;
+  background-color: #094da2;
+  }
+h1 {
+	font-family: 'Merienda One', cursive;
+	text-transform: uppercase;
+}
+p, li {
+ 	font-family: 'Overpass', sans-serif;
+ }
+/* 2. Links */
+
+/* 3. Headings */
+
+/* 4. Header */
+
+/* 5. Navigation */
+nav {
+	position: fixed;
+	height: 380px;
+	width: 221px;
+	right: 0px;
+	background-color: rgba(242, 255, 101, 0.6); /*rgba(255,0,0,.7)*/
+	z-index: 2000;
+	border: 5px solid blue;
+	border-style: outset;
+}
+
+.popup {
+	left: 35%;/*0px;*/
+	width: 830px;/*100%;*/
+	height: 270px;
+	position: fixed;
+	background-color: yellow; /*rgba(242, 255, 101, 0.6);*/
+	bottom: -500px;/*-441px;*/
+	padding: 20px;
+	z-index: 1900;
+	text-align: center;
+	border: 5px solid blue;
+	border-style: outset;
+}
+
+nav ul {
+	list-style-type: none;
+	margin-top: 30px;
+	list-style: square url("../images/pokeball.png");
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav ul li {
+	padding: 5px 0px 5px 30px;
+}
+#close {
+	position: fixed;
+	top: 8px;
+	right: 8px;
+	color: #fff;
+	z-index: 2001;
+}
+#locations {
+	margin-top: -20px;
+	margin-right: 10px;
+}
+.rotate {
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+/* 6. Middle */
+#mapHolder {
+	height: 100%;
+	width: 100%;
+	position:fixed;
+}
+#theMap {
+	position: absolute;
+}
+.mapTitle {
+	top:0;
+	left:0;
+	position: absolute;
+}
+.mapTitle h1 {
+	font-size: 10em;
+	color: yellow;
+	text-shadow: 10px 8px 10px black;
+	margin-left: 60px;
+	margin-top: 25px;
+}
+.highlight {
+	height: 150px;
+	width: 150px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	cursor: pointer;
+	z-index: 1000;
+	/*border-radius: 15px;
+    border: 2px solid #8AC007;*/
+    background-image: url("../images/pokespot2.png");
+}
+.highlight:hover {
+	border-radius: 80px;
+    border: 5px solid yellow;
+}
+#site_1 {
+	top: 1971px;
+	left: 661px;
+}
+#site_2 {
+	top: 1077px;
+	left: 1146px;
+}
+#site_3 {
+	top: 674px;
+	left: 242px;
+}
+#site_4 {
+	top: 498px;
+	left: 1081px;
+}
+#site_5 {
+	top: 348px;
+	left: 712px;
+}
+#site_6 {
+	top: 1174px;
+	left: 2051px;
+}
+#site_7 {
+	top: 417px;
+	left: 1745px;
+}
+#site_8 {
+	top: 1865px;
+	left: 2213px;
+}
+#site_9 {
+	top: 2293px;
+	left: 1081px;
+}
+#site_10 {
+	top: 2622px;
+	left: 552px;
+}
+.popup {
+	left: 35%;/*0px;*/
+	width: 830px;/*100%;*/
+	height: 270px;
+	position: fixed;
+	background-color: yellow; /*rgba(242, 255, 101, 0.6);*/
+	bottom: -500px;/*-441px;*/
+	padding: 20px;
+	z-index: 1900;
+	text-align: center;
+	border: 5px solid blue;
+	border-style: outset;
+}
+.popup li {
+	list-style: square url("../images/pokeball.png");
+	text-align: left;
+	margin-left: 23%;
+}
+.photo {
+	width: 400px;
+	height: 240px;
+	float: left;
+	border: 5px solid blue;
+	border-style: outset;
+	margin-top: 12px;
+}
+.data {
+	width: 400px;
+	height: 240px;
+	float: left;
+	margin-top: -20px;
+	margin-left: 20px;
+}
+#mapGroup {
+	height: 2420px;
+	width: 2000px;
+}
+#minMap {
+	position: fixed;
+	bottom: 0px;
+	overflow: hidden;
+}
+#minMap img{
+	height: 355px;
+	width: 357px;
+}
+#mmSite {
+	top: 0;
+	left: 0;
+	position: absolute;
+	cursor: pointer;
+	z-index: 1000;
+    border: 2px solid #8AC007;
+}
+
+#dimmer {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	z-index: 1800;
+	opacity: 0.5;
+	top: -1000px;
+}
+/* 7. Forms */
+
+/* 8. Extras */
+
+/* 9. Footer */

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Joshua Peralta Project 4</title>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="css/template.css" />
+<link href="https://fonts.googleapis.com/css?family=Merienda+One|Overpass" rel="stylesheet">
+</head>
+
+<body>
+<!-- Lightweight Content -->
+<a href='#' id='close'><img src="images/x2.png"></a>
+
+<nav>	
+	<ul id="lists">
+		<h1 id="locations">Locations</h1>
+		<li><a href='#' id='loc1'>Heahea City</a></li>
+		<li><a href='#' id='loc2'>Paniola Town</a></li>
+		<li><a href='#' id='loc3'>Brooklet Hill</a></li>
+		<li><a href='#' id='loc4'>Lush Jungle</a></li>
+		<li><a href='#' id='loc5'>Route 8</a></li>
+		<li><a href='#' id='loc6'>Royal Avenue</a></li>
+		<li><a href='#' id='loc7'>Wela Volcano Park</a></li>
+		<li><a href='#' id='loc8'>Hano Grand Resort</a></li>
+		<li><a href='#' id='loc9'>Diglett's Tunnel</a></li>
+		<li><a href='#' id='loc10'>Konikoni City</a></li>
+	</ul>
+</nav>
+<div id='dimmer'></div>
+<div id='mapHolder'>
+	<div id='mapGroup'>
+		<img id='theMap' src='images/map.jpg'>
+		<div class='highlight' id='site_1'></div>
+		<div class='highlight' id='site_2'></div>
+		<div class='highlight' id='site_3'></div>
+		<div class='highlight' id='site_4'></div>
+		<div class='highlight' id='site_5'></div>
+		<div class='highlight' id='site_6'></div>
+		<div class='highlight' id='site_7'></div>
+		<div class='highlight' id='site_8'></div>
+		<div class='highlight' id='site_9'></div>
+		<div class='highlight' id='site_10'></div>
+		<div class='mapTitle'><h1>Akala Island</h1></div>
+	</div>
+</div>
+<div id='moreData'>
+	<div class='popup' id='pop1'>
+		<div class="photo">
+		<img src="images/Heahea_City_SM.png">
+		</div>
+		<div class="data">
+		<h1>Heahea City</h1>
+		<p>Considered the "front door" to Akala Island, this town's residents treasure visitors and welcome them most warmly.</p>
+		<ul>
+			<li>Pokemon Center</li>
+			<li>Apparel Shop</li>
+			<li>Name Rater</li>
+			<li>Akala Ferry Terminal</li>
+			<li>Tide Song Hotel</li>
+			<li>Dimensional Research Lab</li>
+		</ul>
+		</div>
+	</div>
+	<div class='popup' id='pop2'>
+		<div class="photo">
+		<img src="images/Paniola_Town_SM.png">
+		</div>
+		<div class="data">
+		<h1>Paniola Town</h1>
+		<p>A town located in the middle of Akala Island and surrounded by ranch land and pastures for grazing.</p>
+		<ul>
+			<li>Pokemon Center</li>
+			<li>Pokemon Nursery</li>
+			<li>Paniola Ranch</li>
+		</ul>
+		</div>
+	</div>
+	<div class='popup' id='pop3'>
+		<div class="photo">
+		<img src="images/Brooklet_Hill_SM.png">
+		</div>
+		<div class="data">
+		<h1>Brooklet Hill</h1>
+		<p>The best fishing spot in the Alola region. Its series of cascading waterfalls make it look like a terrace field.</p>
+		<ul>
+			<li>Lana's Trial</li>
+		</ul>
+		</div>
+	</div>
+	<div class='popup' id='pop4'>
+		<div class="photo">
+		<img src="images/Lush_Jungle_SM.png">
+		</div>
+		<div class="data">
+		<h1>Lush Jungle</h1>
+		<p>A heavily wooded tropical rain forest. It's famous for producing ingredients for delicious meals.</p>
+		<ul>
+			<li>Mallow's Trial</li>
+		</ul>
+		</div>
+	</div>
+	<div class='popup' id='pop5'>
+		<div class="photo">
+		<img src="images/Route_8_SM.jpg">
+		</div>
+		<div class="data">
+		<h1>Route 8</h1>
+		<p>An oceanside route with great views. It is a popular date spot enjoyed by many couples and Pokémon.</p>
+		<ul>
+			<li>Pokemon Center</li>
+			<li>Fossil Restoration Center</li>
+			<li>Roadside Motel</li>
+		</ul>
+		</div>
+	</div>
+	<div class='popup' id='pop6'>
+		<div class="photo">
+		<img src="images/Royal_Avenue_SM.png">
+		</div>
+		<div class="data">
+		<h1>Royal Avenue</h1>
+		<p>A major street that has developed so much thanks to the Battle Royal Dome being on it, making it look like a city street.</p>
+		<ul>
+			<li>Pokemon Center</li>
+			<li>Malasada Shop</li>
+			<li>Thrifty Megamart</li>
+			<li>Battle Royal Dome</li>
+		</ul>
+		</div>
+	</div>
+	<div class='popup' id='pop7'>
+		<div class="photo">
+		<img src="images/Wela_Volcano_Park_SM.png">
+		</div>
+		<div class="data">
+		<h1>Wela Volcano Park</h1>
+		<p>A mountain with steep paths and waste lands. There is a trial site on top.</p>
+		<ul>
+			<li>Kiawe's Trial</li>
+		</ul>
+		</div>
+	</div>
+	<div class='popup' id='pop8'>
+		<div class="photo">
+		<img src="images/Hano_Grand_Resort_SM.png">
+		</div>
+		<div class="data">
+		<h1>Hano Grand Resort</h1>
+		<p>The biggest of all the resorts in the Alola region. The hotel is fully booked a year in advance. The Hano Grand Hotel is one of best resorts in the Alola region. Everybody talks about this five-star hotel.</p>
+		<ul>
+			<li>Hano Grand Hotel</li>
+			<li>Move Tutor</li>
+			<li>Hano Beach</li>
+		</ul>
+		</div>
+	</div>
+	<div class='popup' id='pop9'>
+		<div class="photo">
+		<img src="images/Diglett's_Tunnel_SM.png">
+		</div>
+		<div class="data">
+		<h1>Diglett's Tunnel</h1>
+		<p>Diglett and people worked together to finish digging this tunnel several years ago. It connects Heahea City to Konikoni City.</p>
+		</div>
+	</div>
+	<div class='popup' id='pop10'>
+		<div class="photo">
+		<img src="images/Konikoni_City_SM.png">
+		</div>
+		<div class="data">
+		<h1>Konikoni City</h1>
+		<p>The large gateway at the entrance gives a unique impression. This is a city of merchants, where you find lots of shops.</p>
+		<ul>
+			<li>Pokemon Center</li>
+			<li>Apparel Shop</li>
+			<li>Salon</li>
+			<li>Herbalist's Shop</li>
+		</ul>
+		</div>
+	</div>
+</div>
+
+<audio id="click">
+		<source src="audio/click.wav">
+		<source src="audio/click.ogg">
+	</audio>
+
+<audio id="song">
+		<source src="audio/song.mp3">
+		<source src="audio/song.ogg">
+	</audio>
+<!--<div id='minMap'>
+	<img src='images/map.jpg'>
+	<div id='mmSite'></div>
+</div>-->
+<!-- Remaining Content -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/template.js"></script>
+
+</body>
+</html>
