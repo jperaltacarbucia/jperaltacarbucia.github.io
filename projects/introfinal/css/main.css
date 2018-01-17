@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#09F;
+}
+
+p {
+	margin-left:200;
+	margin-right:150;
+}
+
+.paragraph {
+	border:#FFF dotted medium;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#09C;
+	text-align:left;
+}
+
+#subTitle {
+	background-color:yellow;
+}
+
+#footer {
+  background-color:#06F;
+  color:#efe5d0;
+  text-align:center;
+  padding:15px;
+  margin-left:168;
+  margin-right:167;
+  margin-top:10;
+  font-size:90%;
+  clear:left;
+}
+
+#page {
+	background-color:#06F;
+	margin-left:168;
+    margin-right:167;
+}
+
+#logo {
+	margin-left:-50;
+	margin-bottom:-50;	
+}
+
+ul {
+	margin-left:200;
+    margin-right:150;
+}
+
+a:link {
+	color:#FFF;
+}
+
+a:visited {
+	color:#FFF;
+}
+
+a:hover {
+	color: #00F;
+}
