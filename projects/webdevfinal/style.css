@@ -1,0 +1,400 @@
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+	background: #6c4647;
+}
+.wrapper {
+	min-width: 500px;
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	/*height: 150px;*/
+	background: #6c4647;
+}
+.header img {
+	padding: 25px;
+	overflow: auto;
+	float:left;
+}
+.boxed {
+	background-color: #FFF;
+	padding-left: 10px;
+	padding-right:10px;
+	width: 315px;
+	position: relative;
+	margin-left: 670px;
+	border-radius: 10px 0px 0px 0px;
+	text-align:right;
+	overflow:auto;
+	float:right; 
+} 
+
+/* Menu
+-----------------------------------------------------------------------------*/
+.menu {
+	background: #f58b6b;
+	width: 100%;
+	overflow:auto;
+
+}
+.menu p {
+	font-size: 18px;
+	padding: 25px;
+	text-align: center;
+}
+.menu a {
+	margin-right: 20px;
+	margin-left:  20px;
+	text-decoration: none;
+	color: white;
+}
+
+
+/* Donate
+-----------------------------------------------------------------------------*/
+.homepage {
+	background: #f4f5f6;
+}
+
+.donate {
+	background: white;
+	width: 800px;
+	margin-left: 95px;
+	overflow: auto;
+	margin-bottom: 25px;
+}
+.donate h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 48px;
+	color: #4f3233;
+	padding-left: 10px;
+}
+.donate p {
+	font-size: 18px;
+	color: #927d69;
+	width: 62%;
+	padding-left: 10px;
+	float:left;
+}
+
+.myButton {
+	background-color:#f58b6b;
+	border-radius: 8px;
+	cursor:pointer;
+	color: #FFF; 
+	font-family: "Times New Roman", Times, serif;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	margin-left:600px;
+	float: right;
+	overflow:auto;
+		
+}
+
+/* Headings
+-----------------------------------------------------------------------------*/
+
+#columns {
+	width: 100%;
+	font-size: 12px;
+	overflow: hidden;
+	padding: 25px;
+}
+#first {
+	float: left;
+	width: 20%;
+	margin-left: 50px;
+	margin-right: 5px;
+	height: 300px;
+}
+#first h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: #927d69;
+}
+#first p {
+	color: #927d69;
+}
+#second {
+	float: left;
+	width: 20%;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 300px;
+}
+#second h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: #927d69;
+}
+#second p {
+	color: #927d69;
+}
+#third {
+	float: left;
+	width: 20%;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 300px;
+}
+#third h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: #927d69;
+}
+#third p {
+	color: #927d69;
+}
+#fourth {
+	float: left;
+	width: 20%;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 300px;
+}
+#fourth h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: #927d69;
+}
+#fourth p {
+	color: #927d69;
+}
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 100px;
+}
+
+.textwrap {
+	float:right;
+	margin: 25px;
+	clear:right;
+	padding-right:20px;
+	text-align:right;
+	
+}
+.tigertext {
+	padding: 50px;
+	
+	}
+.tigerpic {
+	padding: 50px;
+	display:block;
+	
+}
+
+.involved {
+	float: right;
+	font-size: 16px;
+	left: 900px;
+}
+.reasons {
+	float:left;
+	font-size:12px;
+	padding-right:200px;
+	padding-left: 40px;
+	
+	
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -100px auto 0;
+	min-width: 500px;
+	max-width: 1000px;
+	/*height: 100px;*/
+	background: #4f3233;
+	position: relative;
+}
+.footer img {
+	margin-left: 43%;
+}
+
+#columns2 {
+	width: 100%;
+	font-size: 12px;
+	overflow: hidden;
+	padding: 5px;
+	margin-left: 55px;
+}
+#first2 {
+	float: left;
+	width: 20%;
+	margin-left: 20px;
+	margin-right: 5px;
+	height: 310px;
+}
+#first2 h3 {
+	color: #927d69;
+}
+#first2 li {
+	color: #927d69;
+	font-size: 10px;
+}
+#first2 hr {
+	margin-right: 20px;
+}
+#first2 a {
+	text-decoration: none;
+}
+#first2 a:link {
+	color: #927d69;
+}
+#first2 a:visited {
+	color: #927d69;
+}
+#first2 a:active {
+	color: #927d69;
+}
+#second2 {
+	float: left;
+	width: 20%;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 300px;
+}
+#second2 h3 {
+	color: #927d69;
+}
+#second2 li {
+	color: #927d69;
+	font-size: 10px;
+}
+#second2 hr {
+	margin-right: 20px;
+}
+#second2 a {
+	text-decoration: none;
+}
+#second2 a:link {
+	color: #927d69;
+}
+#second2 a:visited {
+	color: #927d69;
+}
+#second2 a:active {
+	color: #927d69;
+}
+#third2 {
+	float: left;
+	width: 20%;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 300px;
+}
+#third2 h3 {
+	color: #927d69;
+}
+#third2 li {
+	color: #927d69;
+	font-size: 10px;
+}
+#third2 hr {
+	margin-right: 20px;
+}
+#third2 a {
+	text-decoration: none;
+}
+#third2 a:link {
+	color: #927d69;
+}
+#third2 a:visited {
+	color: #927d69;
+}
+#third2 a:active {
+	color: #927d69;
+}
+#fourth2 {
+	float: left;
+	width: 20%;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 300px;
+}
+#fourth2 h3 {
+	color: #927d69;
+}
+#fourth2 li {
+	color: #927d69;
+	font-size: 10px;
+}
+#fourth2 hr {
+	margin-right: 20px;
+}
+#fourth2 a {
+	text-decoration: none;
+}
+#fourth2 a:link {
+	color: #927d69;
+}
+#fourth2 a:visited {
+	color: #927d69;
+}
+#fourth2 a:active {
+	color: #927d69;
+}
+.footer p {
+	text-align: center;
+	color: #f4f5f6;
+}
