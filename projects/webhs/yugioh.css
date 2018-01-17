@@ -1,0 +1,72 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: medium;
+	background-color: #F00;
+	color: #000;
+}
+h1 {
+	font-size: 36px;
+	color: #000;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+.questiontext {
+	font-weight: bold;
+	color: #000;
+	font-size: medium;
+}
+.answertext {
+	font-size: small;
+	color: #03C;
+}
+.text {
+	font-size: large;
+	color: #000;
+	font-weight: bold;
+	background-color: red;
+}
+.table-bgcolor {
+	background-color: ;
+	border: thin solid #8E420B;
+	color: #00F;
+	font-size: x-large;
+	font-weight: bold;
+}
+.table-top {
+	font-size: x-large;
+	font-weight: bolder;
+	color: #00F;
+	text-align: center;
+	background-color: #FFF;
+}
+.navtext {
+	font-size: x-large;
+	font-weight: bold;
+	color: #00F;
+}
+.table-bgcolor tr td .table-bgcolor tr td {
+	text-align: center;
+}
+.Picture {
+	text-align: center;
+}
+.Picture {
+	text-align: center;
+}
+.Picture {
+	text-align: center;
+}
+.Contents {
+	text-align: center;
+}
+.Years {
+	font-size: x-large;
+	font-weight: bold;
+}
+.Years {
+	font-size: x-large;
+}
+.Years {
+	font-size: x-large;
+}
