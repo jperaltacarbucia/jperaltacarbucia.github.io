@@ -1,0 +1,99 @@
+/*
+Project Name: Joshua Peralta Portfolio
+Description: This project is to create Joshua Peralta's Portfolio 
+Author: Joshua Peralta Carbucia
+Version: 1.0
+License: © 2018 by Joshua Peralta-Carbucia
+
+Tags: (optional)
+
+General comments (optional)
+
+Table of Contents in CSS
+1. Global
+2. Links
+3. Headings
+4. Header
+5. Navigation
+6. Middle
+7. Forms
+8. Extras
+9. Footer
+*/
+
+/* 1. Global */
+html,body  { 
+  margin: 0;
+  padding: 0;
+  }
+
+ .row div {
+	padding: 20px 10px; 
+	border: 1px solid;
+}
+.navBtn {
+	margin: 5px;
+}
+.navbar-toggler {
+	width: 100%;
+	float: none;
+	margin-right: 0;
+}
+.btn {
+	width: 100%;
+}
+
+.social {
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+ul li {
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	text-align: center;
+	line-height: 80px;
+	font-size: 35px;
+	margin: 0 10px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+/* 2. Links */
+
+/* 3. Headings */
+
+.logo {
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 68px;
+	width: 550px;
+	background-color: blue;
+	color:white;
+}
+
+.logo p {
+	font-size: 250%;
+}
+
+.logo span {
+	font-size: 70%;
+	color: red;
+}
+
+/* 4. Header */
+
+/* 5. Navigation */
+
+/* 6. Middle */
+
+/* 7. Forms */
+
+/* 8. Extras */
+
+/* 9. Footer */
+
