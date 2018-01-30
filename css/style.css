@@ -46,8 +46,8 @@ html,body  {
 /* 2. Links */
 
 .icon i.circle {
-  font-size: 18px;
-  line-height: 35px;
+  font-size: 17px;
+  line-height: 28px;
   color: #fff;
   text-align: center;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
@@ -57,8 +57,8 @@ html,body  {
   margin-right: 16px;
   margin-bottom: 16px;
   float: left;
-  width: 31px;
-  height: 31px;
+  width: 27px;
+  height: 27px;
   overflow: hidden;
   left: 15px;
   display: inline-block;
@@ -117,6 +117,10 @@ div .icon a:hover .fa {
 .logo span {
 	font-size: 70%;
 	color: red;
+}
+
+.email {
+	font-size: 18px;
 }
 
 /* 4. Header */
