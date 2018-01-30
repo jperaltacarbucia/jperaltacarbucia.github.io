@@ -42,6 +42,59 @@ html,body  {
 .btn:hover {
 	opacity: 0.7;
 }
+
+.logo1 img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	/*
+	display: block;
+    margin: 0 auto;
+    text-align: center;*/
+}
+
+.logo-bg {
+	background-color: #41BFFF;
+	padding: 30px 30px 20px 30px;
+	border-radius: 0px 50px 0px 50px;
+	width: inherit;
+}
+
+.logo2 {
+	text-shadow: 2px 2px 5px white;
+	font-size: 5vw;
+	text-align: center;
+	transition: 1.5s;
+}
+
+.logo2:hover {
+	transform: rotateY(360deg);
+}
+
+.logo2 span {
+	font-size: 3vw;
+}
+
+/*
+@media (min-width: 848px) and (max-width: 1199px) {
+	.logo1 img {
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 100px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 847px) {
+	.logo1 img {
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 46px;
+	}
+}*/
+
+
 .navBtn {
 	margin: 5px;
 }
