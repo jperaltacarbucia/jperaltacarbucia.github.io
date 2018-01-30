@@ -40,16 +40,15 @@ html,body  {
 	margin-right: 0;
 }
 
-.btn-info {
+/*.btn-info {
 	width: 100%;
-}
+}*/
 /* 2. Links */
 
 .icon i.circle {
   font-size: 18px;
   line-height: 35px;
   color: #fff;
-  background-color: #999;
   text-align: center;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
@@ -64,6 +63,7 @@ html,body  {
   left: 15px;
   display: inline-block;
   vertical-align: middle;
+  border-radius: 50%;
 }
 
 div .icon a .fa {
@@ -72,6 +72,31 @@ div .icon a .fa {
 
 div .icon a:hover .fa {
 	transform: rotateY(360deg);
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google-plus {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube-play {
+  background: #bb0000;
+  color: white;
 }
 
 /* 3. Headings */
