@@ -189,6 +189,10 @@ div .icon a:hover .fa {
 
 /* 6. Middle */
 
+.quote {
+	font-size: 2em;
+}
+
 .card {
 	height: 415px;
 }
