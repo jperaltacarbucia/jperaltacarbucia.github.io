@@ -27,6 +27,14 @@ html,body  {
   padding: 0;
   }
 
+ a {
+ 	color: inherit;
+ }
+
+ a:hover {
+ 	text-decoration: none;
+ }
+
  .row div {
 	padding: 20px 10px; 
 	border: 1px solid;
@@ -54,10 +62,20 @@ html,body  {
 }
 
 .logo-bg {
+	color: #00325B;
 	background-color: #41BFFF;
 	padding: 20px 30px 20px 30px;
 	border-radius: 0px 50px 0px 50px;
 	width: inherit;
+}
+
+.logo-bg:hover {
+	cursor: pointer;
+}
+
+.logo-bg a:hover {
+	text-decoration: none;
+	color: inherit;
 }
 
 .logo2 {
@@ -75,25 +93,10 @@ html,body  {
 	font-size: 5vw;
 }
 
-/*
-@media (min-width: 848px) and (max-width: 1199px) {
-	.logo1 img {
-	display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding-left: 100px;
-	}
+.phone, .email {
+	color: #00325B;
+	font-weight: bold;
 }
-
-@media (min-width: 400px) and (max-width: 847px) {
-	.logo1 img {
-	display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding-left: 46px;
-	}
-}*/
-
 
 .navBtn {
 	margin: 5px;
@@ -172,15 +175,6 @@ div .icon a:hover .fa {
 	width: 550px;
 	background-color: blue;
 	color:white;
-}
-
-.logo p {
-	font-size: 250%;
-}
-
-.logo span {
-	font-size: 70%;
-	color: red;
 }
 
 .email {
